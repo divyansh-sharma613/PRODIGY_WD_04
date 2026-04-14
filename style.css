@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+header {
+    position: fixed;
+    width: 100%;
+    background: #222;
+    color: white;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* HOME */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(135deg, #00adb5, #393e46);
+    color: white;
+}
+
+.home-text h1 span {
+    color: yellow;
+}
+
+.home-text button {
+    padding: 10px 20px;
+    border: none;
+    background: yellow;
+    cursor: pointer;
+}
+
+.home-img img{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10%;
+    
+    box-shadow: 0 0 20px #e9ebec;
+}
+
+/* Sections */
+section {
+    padding: 90px 20px;
+    text-align: center;
+}
+#about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    padding: 15px;
+    background: #c7c5c5;
+    border-radius: 10px;
+}
+
+/* Skills */
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box div {
+    background: linear-gradient(135deg, #00adb5, #007bff);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.skill-box div:hover {
+    transform: scale(1.1);
+}
+
+/* Projects */
+.project-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #eee;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.project.active {
+    border: 2px solid #00adb5;
+    box-shadow: 0 0 15px #00adb5, 0 0 30px #00adb5;
+}
+
+/* Internship */
+.internship {
+    background: #f4f4f4;
+}
+
+.intern-box {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Contact */
+.contact {
+    background: #222;
+    color: white;
+}

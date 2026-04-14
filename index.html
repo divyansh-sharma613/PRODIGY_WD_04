@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divyansh Sharma Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Divyansh</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div class="home-text">
+        <h1>Hello, I'm <span>Divyansh Sharma</span></h1>
+        <h3>Web Developer</h3>
+        <p>I create modern, responsive and user-friendly websites.</p>
+        <button onclick="scrollToSection('contact')">Hire Me</button>
+    </div>
+
+    <div class="home-img">
+        <img src="myphoto.png" alt="profile">
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+    I am Divyansh Sharma, a passionate and dedicated BCA student with a strong interest in web development. 
+    I specialize in creating responsive, user-friendly, and visually appealing websites using HTML, CSS, and JavaScript. 
+    I have also worked with MySQL and Java, which helps me understand both front-end and back-end concepts.
+
+    I have completed internships at CodSoft and Prodigy Infotech, where I gained hands-on experience by working on real-world projects. 
+    These experiences improved my problem-solving abilities, coding skills, and understanding of industry-level development practices.
+
+    I am always eager to learn new technologies, enhance my skills, and build innovative web applications that provide great user experiences.
+</p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>MySQL</div>
+        <div>Java</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-box">
+
+        <div class="project" onclick="selectProject(this)">
+            <h3>Weather App</h3>
+            <p>Developed a real-time weather application using API integration.
+                It provides accurate weather details such as temperature, humidity, 
+                and conditions for different cities. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project" onclick="selectProject(this)">
+            <h3>Tic Tac Toe Game</h3>
+            <p>Designed an interactive Tic Tac Toe game with both 2-player mode 
+                and basic AI functionality. Implemented game logic, win detection, 
+                and a responsive user interface using JavaScript.</p>
+        </div>
+
+        <div class="project" onclick="selectProject(this)">
+            <h3>Portfolio Website</h3>
+            <p>Created a personal portfolio website to showcase my skills, projects, 
+                and achievements. The website features a modern design, responsive layout, 
+                and smooth navigation using HTML, CSS, and JavaScript.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="internship" class="internship">
+    <h2>Internship Experience</h2>
+    <div class="intern-box">
+
+        <p>
+            <b>Web Development Intern – CodSoft</b><br>
+            Successfully completed a one-month internship at CodSoft, where I worked on 
+            real-world web development projects. During this period, I developed responsive 
+            web pages, portfolio websites, and interactive applications using HTML, CSS, 
+            and JavaScript. This experience enhanced my problem-solving skills and strengthened 
+            my understanding of front-end development.
+        </p>
+
+        <br>
+
+        <p>
+            <b>Web Development Intern – Prodigy Infotech</b><br>
+            Successfully completed my internship at Prodigy Infotech, where I worked on 
+            real-time web development projects and built modern, responsive applications. 
+            During this internship, I improved my coding standards, debugging skills, 
+            and gained practical exposure to industry-level development workflows.
+        </p>
+
+        <br>
+
+        <p>
+            Through these internships, I have gained practical exposure to real-world 
+            development environments and successfully completed all assigned tasks, 
+            which significantly improved my technical and professional skills.
+        </p>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: divyansh@example.com</p>
+    <p>Phone: 9876543210</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
